@@ -10,8 +10,8 @@ Do wyboru: 'sklearn.datasets.load_wine' i 'sklearn.datasets.load_iris'
 2. Support Vector Classification
 3. k-nearest neighbors Classification
 4. Random Forest Classifier
-
-## Metryki 
+ 
+## Metryki dla Wina
 
 |Name|Train score|Test score|Whole set score|
 |----|-----------|----------|---------------|
@@ -19,3 +19,13 @@ Do wyboru: 'sklearn.datasets.load_wine' i 'sklearn.datasets.load_iris'
 | Support Vector Classification|0.711|0.69|0.71|
 | k-nearest neighbors Classification|0.81|0.69|0.79|
 | Random Forest Classifier|1.0|1.0|1.0|
+
+## Wnioski
+
+|Name|Score|
+|----|-----------|
+| Decision Tree Classifier|działa dobrze|
+| Support Vector Classification|overfitting|
+| k-nearest neighbors Classification|overfitting|
+| Random Forest Classifier|działa dobrze|
+
